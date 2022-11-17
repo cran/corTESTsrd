@@ -12,7 +12,7 @@
 #' @param kernelf kernel-function that should be used in the estimation procedure.
 #' @param bwf function for choosing the bandwidth based on the sample size that is used in the estimation procedure.
 #'
-#' @references D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, submitted to Journal of Applied Statistics, 2022.
+#' @references D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, Journal of Applied Statistics, 2022, 1-17. \doi{10.1080/02664763.2022.2137115}.
 #'
 #' @return Estimate of long-run variance of estimator.
 #' @keywords internal

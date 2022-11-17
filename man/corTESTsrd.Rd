@@ -33,8 +33,8 @@ Significance test of Spearman's Rho or Kendall's Tau between time series of shor
 The test is based on the asymptotic normal distributions of the estimators.
 }
 \details{
-Calculates an estimate of the rank correlation coefficient between the inputs x and y, which are assumed to be time series with equidistant discrete time-increments,
-and performs a significance test of the rank correlation coefficient with \eqn{\mathcal{H}_0: \rho_S/\tau=0}{H0: \rho/\tau=0} against an alternative specified by the user. The function returns the estimate of the rank correlation coefficient
+Calculates an estimate of the rank correlation coefficient between the inputs x and y, which are assumed to be evenly spaced time series with equal time-increments,
+and performs a significance test for the rank correlation coefficient with \eqn{\mathcal{H}_0: \rho_S/\tau=0}{H0: \rho/\tau=0} against an alternative specified by the user. The function returns the estimate of the rank correlation coefficient
 and a p-value. Missing observations (\code{NA}) are allowed, but will prompt a warning. Ties are not allowed. \cr \cr
 The test statistic and the corresponding p-value are based on the distribution of the respective estimator under the assumption of independence between the inputs x and y, and an additional assumption regarding
 the dependence structure of the inputs on their own past. The distribution of the test statistic is modelled as a normal distribution. \cr \cr
@@ -91,5 +91,5 @@ sum(pval_srd<=0.05)/nsim
 }
 \references{
 J. D. Gibbons, and S. Chakraborti, Nonparametric statistical inference (4th Edition). CRC press, 2003. \cr \cr
-D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, submitted to Journal of Applied Statistics, 2022.
+D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, Journal of Applied Statistics, 2022, 1-17. \doi{10.1080/02664763.2022.2137115}.
 }

@@ -28,6 +28,6 @@ of independent random variables. The expression comes from the asymptotic normal
 long_run_var_est_spearman_H0(x=rnorm(50),y=rnorm(50))
 }
 \references{
-D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, submitted to Journal of Applied Statistics, 2022.
+D. Lun, S. Fischer, A. Viglione, and G. Blöschl, Significance testing of rank cross-correlations between autocorrelated time series with short-range dependence, Journal of Applied Statistics, 2022, 1-17. \doi{10.1080/02664763.2022.2137115}.
 }
 \keyword{internal}
